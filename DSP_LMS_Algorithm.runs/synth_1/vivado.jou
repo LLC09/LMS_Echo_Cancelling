@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr  3 09:17:44 2024
+# Process ID: 23036
+# Current directory: C:/Users/LorenzoLLC/DSP_project/DSP_LMS_Algorithm/DSP_LMS_Algorithm.runs/synth_1
+# Command line: vivado.exe -log XADCInterface.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source XADCInterface.tcl
+# Log file: C:/Users/LorenzoLLC/DSP_project/DSP_LMS_Algorithm/DSP_LMS_Algorithm.runs/synth_1/XADCInterface.vds
+# Journal file: C:/Users/LorenzoLLC/DSP_project/DSP_LMS_Algorithm/DSP_LMS_Algorithm.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source XADCInterface.tcl -notrace

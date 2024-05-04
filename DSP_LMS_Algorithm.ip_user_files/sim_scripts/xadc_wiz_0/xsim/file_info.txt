@@ -1,0 +1,2 @@
+xadc_wiz_0.vhd,vhdl,xil_defaultlib,../../../../DSP_LMS_Algorithm.gen/sources_1/ip/xadc_wiz_0/xadc_wiz_0.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v
