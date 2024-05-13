@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/LorenzoLLC/OneDrive/Documenti/Progetti_FPGA/LMS_Echo_Cancelling/DSP_LMS_Algorithm.srcs/sim_1/new/tb_BrentKung_adder.vhd,1715511379,vhdl,,,,adder_32b_tb,,,,,,,,
+C:/Users/LorenzoLLC/OneDrive/Documenti/Progetti_FPGA/LMS_Echo_Cancelling/DSP_LMS_Algorithm.srcs/sources_1/new/BrentKung_adder.vhd,1715510939,vhdl,C:/Users/LorenzoLLC/OneDrive/Documenti/Progetti_FPGA/LMS_Echo_Cancelling/DSP_LMS_Algorithm.srcs/sim_1/new/tb_BrentKung_adder.vhd,,,brentkung_adder,,,,,,,,
+C:/Users/LorenzoLLC/OneDrive/Documenti/Progetti_FPGA/LMS_Echo_Cancelling/DSP_LMS_Algorithm.srcs/sources_1/new/carry_calculation.vhd,1715507447,vhdl,,,,carry_calculation,,,,,,,,
+C:/Users/LorenzoLLC/OneDrive/Documenti/Progetti_FPGA/LMS_Echo_Cancelling/DSP_LMS_Algorithm.srcs/sources_1/new/pg_calculation.vhd,1715510973,vhdl,,,,pg_calculation,,,,,,,,
+C:/Users/LorenzoLLC/OneDrive/Documenti/Progetti_FPGA/LMS_Echo_Cancelling/DSP_LMS_Algorithm.srcs/sources_1/new/sum_calculation.vhd,1715507461,vhdl,,,,sum_calculation,,,,,,,,
