@@ -23,7 +23,7 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 ISEStep( "vivado",
-         "-log XADCInterface.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source XADCInterface.tcl" );
+         "-log Array_multiplier.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Array_multiplier.tcl" );
 
 
 

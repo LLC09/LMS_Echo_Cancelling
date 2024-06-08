@@ -1,6 +1,6 @@
 Vivado Simulator 2020.2
 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto ba187a9808ce46aab837d127da7d475c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip -L xpm --snapshot adder_32b_tb_behav xil_defaultlib.adder_32b_tb -log elaborate.log 
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto ba187a9808ce46aab837d127da7d475c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip -L xpm --snapshot tb_Array_multiplier_behav xil_defaultlib.tb_Array_multiplier -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -10,9 +10,15 @@ Time Resolution for simulation is 1ps
 Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture dataflow of entity xil_defaultlib.Half_adder [half_adder_default]
+Compiling architecture strutturale of entity xil_defaultlib.Full_adder [full_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Array_multiplier_cell [array_multiplier_cell_default]
+Compiling architecture behavioral of entity xil_defaultlib.Array_multiplier_nand_cell [array_multiplier_nand_cell_defau...]
 Compiling architecture behavioral of entity xil_defaultlib.pg_calculation [pg_calculation_default]
 Compiling architecture behavioral of entity xil_defaultlib.carry_calculation [carry_calculation_default]
 Compiling architecture behavioral of entity xil_defaultlib.sum_calculation [sum_calculation_default]
 Compiling architecture behavioral of entity xil_defaultlib.BrentKung_adder [brentkung_adder_default]
-Compiling architecture test of entity xil_defaultlib.adder_32b_tb
-Built simulation snapshot adder_32b_tb_behav
+Compiling architecture structural of entity xil_defaultlib.Array_multiplier [array_multiplier_default]
+Compiling architecture behavior of entity xil_defaultlib.tb_array_multiplier
+Built simulation snapshot tb_Array_multiplier_behav

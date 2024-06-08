@@ -34,6 +34,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity Array_multiplier_cell is
     Port ( a_1 : in STD_LOGIC;
            b_1 : in STD_LOGIC;
+           partial_sum : in std_logic;
            cin : in STD_LOGIC;
            cout : out STD_LOGIC;
            sum : out STD_LOGIC);
@@ -45,14 +46,13 @@ component Full_adder is
 	s,c : out std_logic);
 end component;
 
-signal aux_a,aux_b,aux_cin,aux_and_logic,aux_sum,aux_cout: std_logic;
+signal aux_partial_sum,aux_cin,aux_and_logic,aux_sum,aux_cout: std_logic;
 
 begin
-aux_a<= a_1;
-aux_b<= b_1;
+aux_partial_sum<= partial_sum;
 aux_cin <= cin;
 aux_and_logic<= a_1 and b_1;
-Adder: Full_adder port map(i2=>aux_and_logic,i1=>aux_b,i0=>aux_cin, c=>aux_cout, s=>aux_sum);
+Adder: Full_adder port map(i2=>aux_and_logic,i1=>aux_partial_sum,i0=>aux_cin, c=>aux_cout, s=>aux_sum);
 
 cout<=aux_cout;
 sum <= aux_sum;

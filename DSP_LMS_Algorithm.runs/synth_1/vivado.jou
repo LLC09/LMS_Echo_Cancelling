@@ -2,11 +2,11 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Wed Apr  3 09:17:44 2024
-# Process ID: 23036
-# Current directory: C:/Users/LorenzoLLC/DSP_project/DSP_LMS_Algorithm/DSP_LMS_Algorithm.runs/synth_1
-# Command line: vivado.exe -log XADCInterface.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source XADCInterface.tcl
-# Log file: C:/Users/LorenzoLLC/DSP_project/DSP_LMS_Algorithm/DSP_LMS_Algorithm.runs/synth_1/XADCInterface.vds
-# Journal file: C:/Users/LorenzoLLC/DSP_project/DSP_LMS_Algorithm/DSP_LMS_Algorithm.runs/synth_1\vivado.jou
+# Start of session at: Sat May 18 17:26:21 2024
+# Process ID: 7864
+# Current directory: C:/Users/LorenzoLLC/OneDrive/Documenti/Progetti_FPGA/LMS_Echo_Cancelling/DSP_LMS_Algorithm.runs/synth_1
+# Command line: vivado.exe -log Array_multiplier.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Array_multiplier.tcl
+# Log file: C:/Users/LorenzoLLC/OneDrive/Documenti/Progetti_FPGA/LMS_Echo_Cancelling/DSP_LMS_Algorithm.runs/synth_1/Array_multiplier.vds
+# Journal file: C:/Users/LorenzoLLC/OneDrive/Documenti/Progetti_FPGA/LMS_Echo_Cancelling/DSP_LMS_Algorithm.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
-source XADCInterface.tcl -notrace
+source Array_multiplier.tcl -notrace

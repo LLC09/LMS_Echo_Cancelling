@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/LorenzoLLC/DSP_project/DSP_LMS_Algorithm/DSP_LMS_Algorithm.runs/synth_1'
+HD_PWD='C:/Users/LorenzoLLC/OneDrive/Documenti/Progetti_FPGA/LMS_Echo_Cancelling/DSP_LMS_Algorithm.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log XADCInterface.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source XADCInterface.tcl
+EAStep vivado -log Array_multiplier.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Array_multiplier.tcl
