@@ -157,8 +157,8 @@ begin
         den_in <= convDone;
     end if;
 end process;
-
-data0_reg <= data(15 downto 4);
+-- when convDone is asserted the new sample is ready
+data0_reg <= data(15 downto 4);-- sample
 
 di_in <= x"0000";
 --led <= data0_reg(0) xor data0_reg(3) xor data0_reg(5) xor data0_reg(7) xor data0_reg(9) xor data0_reg(11);
